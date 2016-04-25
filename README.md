@@ -47,7 +47,7 @@ Chromatic configures all web servers meant for production with New Relic. If the
 [Redis](http://redis.io/) should be installed and configured for all production Drupal sites. Using Redis will improve database performance.
 
 #### CDN
-With the low-cost and free options available, there is rarely a reason to not institute a CDN on every production site. While there are many options, we have had great success using [CloudFlare](https://www.cloudflare.com/).
+Putting a CDN in front of your site, provides many perfomance and security benefits. With the many low-cost and free options available, there is rarely a reason to not institute a CDN on every production site. We have had great success using [CloudFlare](https://www.cloudflare.com/).
 
 _Note: CloudFlare [requires you to change your name servers](https://support.cloudflare.com/hc/en-us/articles/200172566-Why-do-I-have-to-change-my-DNS-settings-to-use-CloudFlare-) and use them for DNS configuration. These changes should be made at least 24 hours in advance of launch._
 
