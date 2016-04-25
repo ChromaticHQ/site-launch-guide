@@ -6,7 +6,7 @@ Below is a site launch checklist with details on individual areas of interest to
 * Is there a [load balancer](#infrastructure) in front of your web head(s)?
 * Is [Jenkins](#automation) configured to automatically deploy your code, run cron, etc?
 * Is [Redis](#redis) configured and enabled?
-* Is a [CDN configured](#infrastructure)?
+* Is a [CDN](#cdn) configured?
 * Is the CDN serving HIT's?
 * Is [Varnish](#varnish) serving HIT's?
 * Is [New Relic configured](#new-relic)?
