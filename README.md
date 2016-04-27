@@ -1,5 +1,5 @@
 # Site Launch Guide {#site-launch-guide}
-Below is a site launch checklist with details on individual areas of interest to follow. While some are Drupal specific, the majority would apply to most any site.
+Below is a site launch checklist, with details on individual areas of interest to follow in the [appendix](#appendix). While some are Drupal specific, the majority would apply to most any site.
 
 ## Launch Checklist {#launch-checklist}
 * Is the web server instance size [large enough](#infrastructure)?
