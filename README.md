@@ -66,7 +66,7 @@ Many high traffic sites will benefit from an extra layer of caching between the 
 SSL can be configured easily with [Let's Encrypt](https://letsencrypt.org/getting-started/). These certificates need to be renewed quarterly but this renewal process can be [automated](#automation).
 
 #### HTTP/2 {#http2}
-If you have configured HTTPS, you should go one step further and enable HTTP/2 to reap it's additional performance benefits. While HTTP/2 does not technically _require_ encryption, no browser currently supports it over HTTP, so for all intents and purposes HTTP/2 requires HTTPS. 
+If you have configured HTTPS, you should go one step further and enable HTTP/2 to reap its additional performance benefits. While HTTP/2 does not technically _require_ encryption, no browser currently supports it over HTTP, so for all intents and purposes HTTP/2 requires HTTPS. 
 
 Enabling HTTP/2 is a [straight-forward process](https://blog.samat.org/2015/11/26/Enabling-HTTP2-on-Apache-2.4-on-Debian-Ubuntu/):
 
