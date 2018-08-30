@@ -16,7 +16,8 @@ Below is a site launch checklist, with details on individual areas of interest t
 * Is Google Analytics (or your analytics tool of choice) configured?
 * Is robots.txt configured for production (ie. did you remove any changes that were made for development)?
 * Is Drupal's [internal page cache](https://www.drupal.org/documentation/modules/internal_page_cache) enabled?
-* Is the [Security Review](https://www.drupal.org/project/security_review) module installed and providing a clean report? 
+* Is Drupal's Update Status module enabled and configured?
+* Is the [Security Review](https://www.drupal.org/project/security_review) module installed and providing a clean report?
 * Do Drupal's settings.php & (if Drupal 8) services.yml files have the correct read-only permissions?
 * Are all of the checks on Drupal's status report page reporting green?
 * Are all development related modules disabled?
@@ -38,6 +39,10 @@ At a minimum, the following jobs should be configured in [Jenkins](https://jenki
 * Automated deployments triggered from Github.
 * Cron to be run at least once every 24 hours.
 * A Drush cache clear job that can be run on-demand from the Jenkins UI.
+
+### Notifications {#notifications}
+* Drupal sites should have the Update Manager module configured to send weekly emails about available security updates to a Slack channel (preferably one that the client belongs to).
+* Sites using HTTPS that *do not use Let's Encrypt* should have a Jenkins job configured send weekly messages about upcoming certificate renewal dates to a Slack channel (preferably one that the client belongs to).
 
 ### Performance {#performance}
 #### New Relic {#new-relic}
