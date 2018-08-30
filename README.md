@@ -42,7 +42,7 @@ At a minimum, the following jobs should be configured in [Jenkins](https://jenki
 
 ### Notifications {#notifications}
 * Drupal sites should have the Update Manager module configured to send weekly emails about available security updates to a Slack channel (preferably one that the client belongs to).
-* Sites using HTTPS that *do not use Letsencrypt* should have a Jenkins job configured send weekly messages about upcoming certificate renewal dates to a Slack channel (preferably one that the client belongs to).
+* Sites using HTTPS that *do not use Let's Encrypt* should have a Jenkins job configured send weekly messages about upcoming certificate renewal dates to a Slack channel (preferably one that the client belongs to).
 
 ### Performance {#performance}
 #### New Relic {#new-relic}
